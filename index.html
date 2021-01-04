@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock Paper Scissors</title>
-  </head>
-  <body>
-    <script src="js/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="interface">
+				<h1 class="info">Choose to play the game</h1>
+				<div class="choices">
+					<button class="choice-button" value="Rock">Rock</button>
+					<button class="choice-button" value="Paper">Paper</button>
+					<button class="choice-button" value="Scissor">Scissor</button>
+					<button id="restart" class="hidden">Restart</button>
+				</div>
+				<div class="pc">
+					<div class="pc-sub">Computer chose:</div>
+					<div class="pc-sub pc-choice"></div>
+				</div>
+				<div class="score"></div>
+				<h1 class="result"></h1>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
 </html>
